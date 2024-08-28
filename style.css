@@ -14,11 +14,16 @@
     cursor: pointer;
 }
 
+.link-header:hover {
+    opacity: 0.7;
+}
+
 header {
     margin-top: 40px;
     margin-left: 42px;
     display: inline-block;
 }
+
 
 button {
     width: 124px;
@@ -30,6 +35,14 @@ button {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: #17233d;
 }
 
 img {
@@ -65,6 +78,14 @@ h1 {
     font-size: 18px;
     color: #6FBF44;
     cursor: pointer;
+}
+
+.link-bottom:hover {
+    opacity: 0.7;
+}
+
+.link-bottom:active {
+    color: #17233d;
 }
 
 @media screen and (max-width: 700px) {
